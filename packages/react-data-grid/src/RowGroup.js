@@ -62,7 +62,7 @@ RowGroup.propTypes = {
   colVisibleEnd: PropTypes.number.isRequired,
   colDisplayStart: PropTypes.number.isRequired,
   colDisplayEnd: PropTypes.number.isRequired,
-  isScrolling: React.PropTypes.bool.isRequired,
+  isScrolling: PropTypes.bool.isRequired,
   columnGroupName: PropTypes.string.isRequired,
   isExpanded: PropTypes.bool.isRequired,
   treeDepth: PropTypes.number.isRequired,
